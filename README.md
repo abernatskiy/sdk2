@@ -14,3 +14,13 @@ Suggestions/ideas:
 - We may want to separate the layer that handles runtime dependencies from the layer that executes things in runtime proper
   * The latter might be just a loose collection of functions explicitly called in a certain way
   * The former will have to give up un-opinionated-ness by necessity
+
+------------------
+
+Examples / test cases / required features:
+- forks on non-transactional DBs
+- forks on transactional DBs
+- single append-only file state + data
+- displaying progress correctly
+- split off state
+- serving metrics
